@@ -19,12 +19,38 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\common\IndexBuffer.cpp" />
+    <ClCompile Include="src\common\Renderer.cpp" />
+    <ClCompile Include="src\common\Shader.cpp" />
+    <ClCompile Include="src\common\Texture.cpp" />
     <ClCompile Include="src\common\Utils.cpp" />
+    <ClCompile Include="src\common\VertexArray.cpp" />
+    <ClCompile Include="src\common\VertexBuffer.cpp" />
+    <ClCompile Include="src\common\VertexBufferLayout.cpp" />
     <ClCompile Include="src\glad.c" />
+    <ClCompile Include="src\imgui\imgui.cpp" />
+    <ClCompile Include="src\imgui\imgui_demo.cpp" />
+    <ClCompile Include="src\imgui\imgui_draw.cpp" />
+    <ClCompile Include="src\imgui\imgui_impl_glfw_gl3.cpp" />
+    <ClCompile Include="src\imgui\main.cpp" />
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\common\IndexBuffer.h" />
+    <ClInclude Include="src\common\Renderer.h" />
+    <ClInclude Include="src\common\Shader.h" />
+    <ClInclude Include="src\common\Texture.h" />
     <ClInclude Include="src\common\Utils.h" />
+    <ClInclude Include="src\common\VertexArray.h" />
+    <ClInclude Include="src\common\VertexBuffer.h" />
+    <ClInclude Include="src\common\VertexBufferLayout.h" />
+    <ClInclude Include="src\imgui\imconfig.h" />
+    <ClInclude Include="src\imgui\imgui.h" />
+    <ClInclude Include="src\imgui\imgui_impl_glfw_gl3.h" />
+    <ClInclude Include="src\imgui\imgui_internal.h" />
+    <ClInclude Include="src\imgui\stb_rect_pack.h" />
+    <ClInclude Include="src\imgui\stb_textedit.h" />
+    <ClInclude Include="src\imgui\stb_truetype.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -88,8 +114,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\cssun\source\repos\LearnOpenGL\LearnOpenGL\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\cssun\source\repos\LearnOpenGL\LearnOpenGL\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\hangsun\Desktop\repository\LearnOpenGL\LearnOpenGL\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\hangsun\Desktop\repository\LearnOpenGL\LearnOpenGL\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
