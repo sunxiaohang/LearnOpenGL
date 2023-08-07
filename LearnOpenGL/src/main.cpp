@@ -77,8 +77,8 @@ int main()
 	ImGui::StyleColorsDark();
 
 	Renderer renderer;
-	Shader shader("BaseShader.shader");
-	Texture texture("github.png");
+	Shader shader("./res/BaseShader.shader");
+	Texture texture("./res/github.png");
 	texture.Bind();
 
 	glfwSwapInterval(1);
